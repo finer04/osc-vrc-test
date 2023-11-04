@@ -1,0 +1,12 @@
+# 小小的 OSC 小工具配置文件
+
+# 服务器端配置
+server_IP： "127.0.0.1" # 默认是连接本地环回地址
+client_port = 9000  # 连接 VRChat OSC 的端口
+server_port = 9001  # VRChat 发数据到本程序的端口
+
+# 设置
+show_time = 2 # 消息滞留多少秒自动关闭 chatbox
+
+# VRCX 数据库地址
+sqlite = "VRCX.sqlite3"
